@@ -1,7 +1,5 @@
 from app import add, subtract
 
-a = 10
-b = 5
-
-print("Addition result:", add(a, b))
-print("Subtraction result:", subtract(a, b))
+if __name__ == "__main__":
+    print("Add: 5 + 3 =", add(5, 3))
+    print("Subtract: 5 - 3 =", subtract(5, 3))
